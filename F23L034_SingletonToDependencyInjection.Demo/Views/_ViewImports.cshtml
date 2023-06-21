@@ -1,0 +1,7 @@
+﻿@using F23L034_SingletonToDependencyInjection.Demo
+@using F23L034_SingletonToDependencyInjection.Demo.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@inject F23L034_SingletonToDependencyInjection.Demo.Models.Repository.ISingleton singleton
+@inject F23L034_SingletonToDependencyInjection.Demo.Models.Repository.IScoped scoped
+@inject F23L034_SingletonToDependencyInjection.Demo.Models.Repository.ITransient transient
